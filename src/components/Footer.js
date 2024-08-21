@@ -14,13 +14,13 @@ const Footer = () => {
                     {/* 1st block */}
                     <div className="col-span-12 lg:col-span-4">
                         <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
-                            <h3 className="font-bold text-4xl mb-4">MLD</h3>
-                            <div className='text-md font-medium text-gray-600'>
+                            <h3 className="font-bold text-4xl text-custome ">CODENST</h3>
+                            {/* <div className='text-md font-medium text-gray-600'>
                                 <h5>Molad e Konsult</h5>
                                 <p>Ilo Awela,</p>
                                 <p>Ota,</p>
                                 <p>Ogun State.</p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
@@ -111,7 +111,7 @@ const Footer = () => {
 
                     </div>
 
-                    <div className="flex flex-wrap items-center md:justify-between justify-center mx-auto px-4">
+                    {/* <div className="flex flex-wrap items-center md:justify-between justify-center mx-auto px-4">
                 <div className="w-full md:w-4/12 px-4 mx-auto text-center py-2">
                     <div className="text-sm text-gray-200 font-semibold py-1">
                     Copyright &copy; {new Date().getFullYear()}{"  "}
@@ -123,7 +123,7 @@ const Footer = () => {
                     </HashLink>. All rights reserved.
                     </div>
                 </div>
-                </div>
+                </div> */}
 
                 </div>
                 
