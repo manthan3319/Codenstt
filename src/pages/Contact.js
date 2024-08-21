@@ -107,7 +107,7 @@ const Contact = () => {
                         <from>
                             <div className='flex md:gap-[15px] md:flex-row flex-col'>
                                 <input type='text' placeholder='Enter Name' className='outline-none from_input w-[100%]'/>
-                                <input type='text' placeholder='Enter Enail' className='outline-none from_input w-[100%]'/>
+                                <input type='text' placeholder='Enter Email' className='outline-none from_input w-[100%]'/>
                             </div>
                             <div className='flex md:gap-[15px] md:flex-row flex-col'>
                                 <input type='Number' placeholder='Enter Number' className='outline-none from_input w-[100%]'/>
