@@ -15,6 +15,11 @@ const Services = () => {
         title: 'Token Development',
       },
       {
+        id: 8,
+        image: WhitePaper,
+        title: 'White Paper Development',
+      },
+      {
         id: 2,
         image: PitchDeck,
         title: 'Pitch Deck Development',
@@ -44,11 +49,7 @@ const Services = () => {
         image: Exchange,
         title: 'Exchange Development',
       },
-      {
-        id: 8,
-        image: WhitePaper,
-        title: 'White Paper Development',
-      },
+      
       {
         id: 9,
         image: ico,
@@ -73,6 +74,40 @@ const Services = () => {
         id: 13,
         image: NFTMarketplace,
         title: 'NFT Marketplace Development',
+      },
+    ],
+  },
+  
+  {
+    category: 'Use Cash',
+    services: [
+      {
+        id: 1,
+        title: 'Game',
+      },
+      {
+        id: 1,
+        title: 'NFT',
+      },
+      {
+        id: 1,
+        title: 'Comp.wallat',
+      },
+      {
+        id: 1,
+        title: 'BAAS any services',
+      },
+      {
+        id: 1,
+        title: 'E-commerce Development',
+      },
+      {
+        id: 2,
+        title: 'WooCommerce Development',
+      },
+      {
+        id: 3,
+        title: 'Magento Development',
       },
     ],
   },
@@ -177,23 +212,6 @@ const Services = () => {
       {
         id: 11,
         title: 'Email Marketing',
-      },
-    ],
-  },
-  {
-    category: 'Ecommerce Services',
-    services: [
-      {
-        id: 1,
-        title: 'E-commerce Development',
-      },
-      {
-        id: 2,
-        title: 'WooCommerce Development',
-      },
-      {
-        id: 3,
-        title: 'Magento Development',
       },
     ],
   },
