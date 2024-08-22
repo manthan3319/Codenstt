@@ -28,6 +28,8 @@ import IGO from "../Images/IGO Marketing.png";
 import Exchangess from "../Images/Exchange Marketing.png";
 import web from "../Images/Web.png";
 import Crowdfunding from "../Images/Crowdfunding Marketing.png";
+import transparent from "../Images/transparent-png.png";
+import aboutus from "../Images/aboutsss.gif";
 export{
     STO,
     gif,
@@ -56,5 +58,7 @@ export{
     IGO,
     Exchangess,
     web,
-    Crowdfunding
+    Crowdfunding,
+    transparent,
+    aboutus
 }

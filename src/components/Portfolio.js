@@ -39,7 +39,8 @@ const Portfolio = () => {
             </div>
 
             <div className='my-4 py-4 p-5'>
-                <p>Over the last 13+ years, we have made a name for ourselves in this field, and understand maintaining the same name and reputation is a complex task. We are the top blockchain and complete web solution company and we are leaving no stone unturned. All these years, we have been providing quality services and helping businesses create their unique online identity. Thousands of global clients trusted us and we are proud that we never disappointed any of them. Some of the challenging projects we have completed are clustered here.</p>
+                <p>Over the last 13+ years, CODENST has made a name for itself in the field of blockchain and complete web solutions. We understand that maintaining this reputation is a complex task, and we are committed to leaving no stone unturned. Throughout these years, we have consistently provided quality services, helping businesses create their unique online identities. Thousands of global clients have trusted us, and we are proud to say that we have never disappointed any of them. Here, we present some of the challenging projects we have successfully completed.
+                </p>
             </div>
             <div className="px-4" data-aos="fade-down" data-aos-delay="600">
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
