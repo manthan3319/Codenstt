@@ -317,7 +317,7 @@ const Services = () => {
 ];
   return (
     <div className='bg-white py-[50px]'>
-      <div className='lg:max-w-[1440px] m-auto px-[20px]'>
+      <div className='lg:max-w-[1440px] m-auto px-[20px] ' id="services">
         <div className='text-center'>
           <h1 className='text-center font-lato lg:text-[65px] text-[45px] inline-block border-b-[2px] border-b-secondary text-black'>Services</h1>
         </div>
@@ -331,7 +331,7 @@ const Services = () => {
 
           {servicesData.map((category, index) => (
             <TabPanel key={index}>
-              <div className='flex flex-wrap lg:gap-[30px] lg:mt-[80px] mt-[30px] justify-center gap-[15px]'>
+              <div className='flex flex-wrap lg:gap-[30px] lg:mt-[80px] mt-[30px] justify-center gap-[15px] '>
                 {category.services.map((service, serviceIndex) => (
                   <ServiceCard key={service.id} service={service} index={serviceIndex} />
                 ))}
@@ -354,7 +354,7 @@ const ServiceCard = ({ service, index }) => {
   return (
     <motion.div
       ref={ref}
-      className='lg:w-[18%] md:w-[31%] w-[100%] flex flex-col bg-white items-center py-[15px] gap-[15px] rounded-[5px] border-[2px] border-black'
+      className='lg:w-[18%] md:w-[31%] w-[100%] flex flex-col bg-white items-center py-[15px] gap-[15px] rounded-[5px] border-[2px] border-black shadow-lg box_shadow' 
       initial={{ opacity: 0, x: -50 }}
       animate={inView ? { opacity: 1, x: 0 } : {}}
       transition={{ duration: 0.5, delay: index * 0.3, ease: 'easeOut' }}

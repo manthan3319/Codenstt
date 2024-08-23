@@ -59,3 +59,8 @@ body {
 .react-tabs__tab:focus:after {
   background: transparent !important;
 }
+
+
+.box_shadow{
+  box-shadow: 1px 3px 12px #747474;
+}

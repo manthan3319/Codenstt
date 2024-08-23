@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { logo } from "./Images/Images";
 
 const Footer = () => {
   return (
@@ -10,9 +11,9 @@ const Footer = () => {
           {/* Top area: Blocks */}
           <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 border-t border-gray-200 lg:ml-11">
             {/* 1st block */}
-            <div className="col-span-12 lg:col-span-2">
-              <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
-                <h3 className="font-bold text-[18px] text-custome ">CODENST</h3>
+            <div className="col-span-12 md:col-span-2">
+              <div className="">
+                <h3 className="font-bold text-[18px] text-custome "><img src={logo} /></h3>
               </div>
             </div>
 

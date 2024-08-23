@@ -85,14 +85,14 @@ const portfolioItems = [
 
 const Portfolio = () => {
     return (
-        <div className="my-4 py-4" id='portfolio'>
+        <div className="my-4 py-4" id='Portfolio'>
             <h2 className="my-2 text-center text-3xl text-blue-900 uppercase font-bold">Our Portfolio</h2>
             <div className='flex justify-center'>
                 <div className='w-24 border-b-4 border-blue-900 mb-8'></div>
             </div>
 
             <div className='my-4 py-4 p-5'>
-                <p>Over the last 13+ years, CODENST has made a name for itself in the field of blockchain and complete web solutions. We understand that maintaining this reputation is a complex task, and we are committed to leaving no stone unturned. Throughout these years, we have consistently provided quality services, helping businesses create their unique online identities. Thousands of global clients have trusted us, and we are proud to say that we have never disappointed any of them. Here, we present some of the challenging projects we have successfully completed.
+                <p className='text-center'>Over the last 13+ years, CODENST has made a name for itself in the field of blockchain and complete web solutions. We understand that maintaining this reputation is a complex task, and we are committed to leaving no stone unturned. Throughout these years, we have consistently provided quality services, helping businesses create their unique online identities. Thousands of global clients have trusted us, and we are proud to say that we have never disappointed any of them. Here, we present some of the challenging projects we have successfully completed.
                 </p>
             </div>
             <div className="px-4" data-aos="fade-down" data-aos-delay="600">
