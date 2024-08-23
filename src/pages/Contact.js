@@ -86,11 +86,11 @@ const Contact = () => {
                     <h1 className='text-[55px] font-bold font-lato text-custome border-b border-white inline-block'>Contact Us</h1>
                 </div>
                 <div>
-                    <div className='flex  lg:flex-row flex-wrap justify-between mt-[50px] gap-[25px] md:gap-[15px]'>
-                        <div className='lg:w-[30%] md:w-[48%] w-[100%] bg-custome flex flex-col gap-[15px] items-center py-[50px] rounded-[5px] border-[1px] border-white'>
+                    <div className='flex  lg:flex-row flex-wrap justify-center mt-[50px] gap-[25px] md:gap-[15px]'>
+                        {/* <div className='lg:w-[30%] md:w-[48%] w-[100%] bg-custome flex flex-col gap-[15px] items-center py-[50px] rounded-[5px] border-[1px] border-white'>
                             <span className='text-[45px] text-white'><i class="fa fa-phone-square" aria-hidden="true"></i></span>
                             <p className='text-white font-lato text-[22px]'>+91 7023472073</p>
-                        </div>
+                        </div> */}
 
                         <div className='lg:w-[30%] md:w-[48%] w-[100%] bg-custome flex flex-col gap-[15px] items-center py-[50px] rounded-[5px] border-[1px] border-white'>
                             <span className='text-[45px] text-white'><i class="fa fa-skype" aria-hidden="true"></i></span>

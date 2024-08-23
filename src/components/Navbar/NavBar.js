@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import NavLinks from '../Navbar/NavLinks';
 import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
+import { logo } from '../Images/Images';
 
 
 const NavBar = () => {
@@ -22,15 +23,15 @@ const NavBar = () => {
 
     return (
         <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-white shadow-lg'}`}>
-            <div className="flex flex-row justify-between items-center py-2">
+            <div className="flex flex-row justify-between items-center py-2  px-[30px]">
                 <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
                 <div>
-                    <Link to="/"> <h1 className='xl:text-[35px] lg:text-[40px] font-lato text-custome font-bold'>Codenst</h1> </Link>
+                    <Link to="/"> <h1 className='xl:text-[35px] lg:text-[40px] font-lato text-custome font-bold'><img src={logo} /></h1> </Link>
                     </div>
                        
                     
                 </div>
-                <div className="group flex flex-col items-center">
+                <div className="group flex flex-col items-center py-[10px]">
                     <button className="p-2 rounded-lg lg:hidden text-blue-900" onClick={handleClick}>
                         <svg className="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             {isOpen && (
@@ -41,11 +42,11 @@ const NavBar = () => {
                             )}
                         </svg>
                     </button>
-                    <div className='hidden space-x-6 lg:inline-block p-5'>
+                    <div className='hidden space-x-6 lg:inline-block py-[25px]'>
                         <NavLinks />
                     </div>
 
-                    <div className={`fixed transition-transform duration-300 ease-in-out transit flex justify-center left-0 w-full h-auto rounded-md p-24 bg-white lg:hidden shadow-xl top-14 ${  isOpen ? "block" : "hidden" } `}>
+                    <div className={`fixed transition-transform duration-300 ease-in-out transit flex justify-center left-0 w-full h-auto rounded-md py-[25px] bg-white lg:hidden shadow-xl top-14 ${  isOpen ? "block" : "hidden" } `}>
                         <div className='flex flex-col space-y-6'>
                             <NavLinks />
                         </div>                                                

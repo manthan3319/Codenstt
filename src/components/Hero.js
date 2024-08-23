@@ -13,7 +13,7 @@ const Hero = () => {
         </div>
 
         <div
-          className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6"
+          className="m-auto overflow-hidden mx-4 mt-8 lg:mt-4 p-2 md:p-12 h-5/6 mt-[100px]"
           data-aos="zoom-in"
         >
           <div
@@ -36,7 +36,7 @@ const Hero = () => {
                 looking for cutting-edge web 3.0 solutions or innovative
                 marketing strategies, CODENST is your trusted partner.
               </div>
-              <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
+              {/* <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                 <Link
                   to="/contact"
                   className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
@@ -55,7 +55,7 @@ const Hero = () => {
                     ></path>
                   </svg>
                 </Link>
-              </div>
+              </div> */}
             </div>
             <div
               className="flex lg:justify-end w-full lg:w-1/2"

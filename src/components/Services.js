@@ -79,7 +79,7 @@ const Services = () => {
   },
   
   {
-    category: 'Use Cash',
+    category: 'Usecase',
     services: [
       {
         id: 1,

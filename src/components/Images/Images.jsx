@@ -30,7 +30,18 @@ import web from "../Images/Web.png";
 import Crowdfunding from "../Images/Crowdfunding Marketing.png";
 import transparent from "../Images/transparent-png.png";
 import aboutus from "../Images/aboutsss.gif";
+import Seo from "../Images/SEO.png";
+import socialmedia from "../Images/Social Media.png";
+import worldwide  from "../Images/worldwide promotion.png";
+import content from "../Images/content.png";
+import productmanagement from "../Images/productdevelopment.png";
+import promotion from "../Images/Targeted Promotion.png";
+import logo from "../Images/logo.png";
 export{
+    logo,
+    promotion,
+    productmanagement,
+    content,
     STO,
     gif,
     business,
@@ -60,5 +71,8 @@ export{
     web,
     Crowdfunding,
     transparent,
-    aboutus
+    aboutus,
+    Seo,
+    socialmedia,
+    worldwide
 }
