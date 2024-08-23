@@ -132,7 +132,7 @@ const Services = () => {
       {
         id: 4,
         image: IGO,
-        title: 'IGO Marketing',
+        title: 'ITO Marketing',
       },
       {
         id: 5,
